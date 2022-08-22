@@ -4,3 +4,16 @@
 	Add all your Custom Styled CSS here for New Styles or
 	Overwriting Default Theme Styles for Better Handling Updates
 -----------------------------------------------------------------*/
+
+a.hero-btn {
+	width: fit-content;
+	display: inline-flex;
+	align-items: center;
+	padding: 15px 30px;
+	font-weight: 600;
+	gap: .5rem;
+	margin-top: 10px;
+	margin-right: 10px;
+	background-color: #212529;
+	color: #fff;
+}
