@@ -4,13 +4,3 @@
 	Add all your Custom Styled CSS here for New Styles or
 	Overwriting Default Theme Styles for Better Handling Updates
 -----------------------------------------------------------------*/
-
-
-#preloader{
-	width: 100%;
-	height: 100%;
-	background-color: #fff;
-	position: fixed;
-	top: 0;
-	left: 0;
-}
