@@ -17,3 +17,64 @@ a.hero-btn {
 	background-color: #212529;
 	color: #fff;
 }
+
+
+
+
+
+/* =================Phone===================== */
+#hero-phone {
+	position: relative;
+	overflow: hidden;
+	border-radius: 40px;
+}
+
+#hero-phone img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	min-height: 501px;
+	height: 100%;
+}
+
+#hero-phone svg {
+	border-radius: 50px;
+}
+
+.bg-yellow {
+	width: 50%;
+	height: 100%;
+	background: url(img/salon-pattern.png) #fbd74d repeat;
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+#slider * {
+	font-family: 'Poppins';
+}
+
+.serv-icon {
+	height: 100px;
+	width: fit-content;
+	margin: auto;
+}
+
+@media only screen and (max-width: 767px) {
+	#slider .row {
+		flex-direction: column;
+		justify-content: center;
+		gap: 2rem;
+	}
+	#hero-phone object{
+		width: 150px !important;
+	}
+	#hero-phone{
+		border-radius: 25px;
+	}
+	.pad-md{
+		padding: 50px 30px !important;
+	}
+}
