@@ -27,6 +27,7 @@ a.hero-btn {
 	position: relative;
 	overflow: hidden;
 	border-radius: 40px;
+	height: fit-content;
 }
 
 #hero-phone img {
